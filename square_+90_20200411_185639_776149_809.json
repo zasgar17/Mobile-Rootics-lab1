@@ -1,0 +1,26 @@
+{
+  "left_max_speed_dps": 1050.0,
+  "manual_heading_error_deg": null,
+  "parameter_source": "ruler measurements; not motion calibration",
+  "wheel_distance_cm": 12.0,
+  "right_max_speed_dps": 1050.0,
+  "right_count_per_rot": 360,
+  "video_filename": null,
+  "wheel_radius_cm": 2.8,
+  "left_count_per_rot": 360,
+  "straight_speed_percent": 30,
+  "turn_angle_deg": 90,
+  "predicted_turn_magnitude_deg_s": 97.99999999999999,
+  "run_note": "",
+  "manual_position_error_cm": null,
+  "requested_sample_period_s": 0.05,
+  "turn_speed_percent": 20,
+  "predicted_straight_cm_s": 15.393804002589984,
+  "notes": [
+    "Predicted speeds use rated maximum speed, not measured floor motion.",
+    "Encoder heading assumes no slip, direct wheel drive, and positive counts forward.",
+    "Event times mark Python calls; event rows have no encoder snapshot.",
+    "Samples are sequential reads, not simultaneous measurements.",
+    "segment_return means the original right-motor blocking call returned; it does not prove both wheels stopped."
+  ]
+}
